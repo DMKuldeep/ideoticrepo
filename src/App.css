@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+.welcomehead{
+  display: flex;
+  justify-content: space-between;
+  background: #110354;
+  color: white;
+
+}
+.logoutbtn{
+  width: 80px;
+  background-color: #0057d9;
+  color: white;
+  padding: 15px 20px;
+  margin: 13px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.logoutbtn:hover {
+  background-color: #4384e6;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidenav {
+  margin-top: 70px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: #110354;
+  overflow-x: hidden;
+  transition: 0.6s;
+}
+.conCssshow{
+  width :15vw;
+}
+.AfterOpen{
+  width: 85vw;
+  margin-left: 15vw;
+  transition: 0.6s;
+}
+.AfterClose{
+  transition: 0.6s;
+  width: 100vw;
+  margin-left: 00vw;
+}
+.conCsshide{
+  width :0px;
+}
+.display-slide{
+  display: flex;
+}
+.displayopen{
+ display: flex;
+ font-size: 50px;
+ padding: auto;
+ width: 50px;
+}
+.displayclose{
+  width: 50px;
+  display: none;
+  font-size: 50px;
+  padding: auto;
+}
+.burgger_btn{
+ max-width: 55px;
+}
+
+
+.AfterClose {
+  transition: 0.6s;
+  width: 95vw;
+  margin-left: 2vw;
+}
+.AfterOpen {
+  width: 80vw;
+  margin-left: 15VW;
+  transition: 0.6s;
+  padding-left: 2VW;
+}
